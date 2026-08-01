@@ -21,8 +21,12 @@ let router = createBrowserRouter([
       { path: "Blogs/:id", element: <BlogDetails /> },
       { path: "*", element: <Notfound /> },
     ],
+    
   },
-])
+ 
+],{
+  basename: "/lens-react/",
+})
 
 function App() {
   return <RouterProvider router={router}></RouterProvider>
