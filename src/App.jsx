@@ -25,7 +25,7 @@ let router = createBrowserRouter([
   },
  
 ],{
-  basename: "/lens-react/",
+  basename: "/lens2-react/",
 })
 
 function App() {
